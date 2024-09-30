@@ -1,4 +1,4 @@
-#include <cstdio>
+#include <iostream>
 #include <queue>
 using namespace std;
 const int N = 1e6 + 6;
@@ -51,11 +51,12 @@ int query(char *t) {
 char s[N];
 
 int main() {
-  scanf("%d", &n);
-  for (int i = 1; i <= n; i++) scanf("%s", s + 1), AC::insert(s);
-  scanf("%s", s + 1);
+  cin.tie(nullptr)->sync_with_stdio(false);
+  cin >> n;
+  for (int i = 1; i <= n; i++) cin >> (s + 1), AC::insert(s);
+  cin >> (s + 1);
   AC::build();
-  printf("%d", AC::query(s));
+  cout << AC::query(s);
   return 0;
 }
 

@@ -1,5 +1,5 @@
-#include <cstdio>
 #include <cstring>
+#include <iostream>
 int numcol, numrow;
 int dfn[3000], tx[2], nxt[2], num[50][50], vis[50];
 char ans[50][50];
@@ -96,8 +96,12 @@ struct DLX {
   }
 } solver;
 
+using std::cin;
+using std::cout;
+
 int main() {
-  for (int i = 1; i <= 10; ++i) scanf("%s", ans[i] + 1);
+  cin.tie(nullptr)->sync_with_stdio(false);
+  for (int i = 1; i <= 10; ++i) cin >> (ans[i] + 1);
   for (int i = 1; i <= 10; ++i)
     for (int j = 1; j <= i; ++j) {
       if (ans[i][j] != '.') vis[ans[i][j] - 'A'] = 1;
@@ -141,10 +145,10 @@ int main() {
   }
   /********end********/
   if (!solver.dance())
-    puts("No solution");
+    cout << "No solution\n";
   else
-    for (int i = 1; i <= 10; ++i, puts(""))
-      for (int j = 1; j <= i; ++j) putchar(ans[i][j]);
+    for (int i = 1; i <= 10; ++i, cout << '\n')
+      for (int j = 1; j <= i; ++j) cout << ans[i][j];
   return 0;
 }
 

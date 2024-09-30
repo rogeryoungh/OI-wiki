@@ -1,5 +1,5 @@
-#include <cstdio>
 #include <cstring>
+#include <iostream>
 #include <queue>
 using namespace std;
 const int N = 156, L = 1e6 + 6;
@@ -63,17 +63,18 @@ int n;
 char s[N][100], t[L];
 
 int main() {
-  while (~scanf("%d", &n)) {
+  cin.tie(nullptr)->sync_with_stdio(false);
+  while (cin >> n) {
     if (n == 0) break;
     AC::init();  // 数组清零
     for (int i = 1; i <= n; i++)
-      scanf("%s", s[i] + 1), AC::insert(s[i], i);  // 需要记录该字符串的序号
+      cin >> (s[i] + 1), AC::insert(s[i], i);  // 需要记录该字符串的序号
     AC::build();
-    scanf("%s", t + 1);
+    cin >> (t + 1);
     int x = AC::query(t);
-    printf("%d\n", x);
+    cout << x << '\n';
     for (int i = 1; i <= n; i++)
-      if (AC::cnt[i] == x) printf("%s\n", s[i] + 1);
+      if (AC::cnt[i] == x) cout << (s[i] + 1) << '\n';
   }
   return 0;
 }

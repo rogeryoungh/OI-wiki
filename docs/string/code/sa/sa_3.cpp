@@ -1,7 +1,5 @@
-#include <cstdio>
 #include <cstring>
 #include <iostream>
-
 using namespace std;
 
 const int N = 500010;
@@ -18,7 +16,7 @@ bool cmp(int x, int y, int w) {
 int main() {
   int i, k, w, p, m = 300;
 
-  scanf("%s", s + 1);
+  cin >> (s + 1);
   n = strlen(s + 1);
   ans = 1ll * n * (n - 1) * (n + 1) / 2;
   // 求后缀数组

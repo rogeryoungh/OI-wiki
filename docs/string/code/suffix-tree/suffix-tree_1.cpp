@@ -63,7 +63,7 @@ struct SuffixTree {
 char s[N + 5];
 
 int main() {
-  scanf("%s", s + 1);
+  cin >> (s + 1);
   for (int i{1}; s[i]; ++i) T.extend(s[i] - 'a' + 1);
   T.extend(0);
   cout << T.search(1).first << endl;

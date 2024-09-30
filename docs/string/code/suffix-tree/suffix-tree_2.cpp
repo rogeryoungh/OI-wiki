@@ -91,14 +91,14 @@ struct SuffixTree {
 char s[N * 2 + 5];
 
 int main() {
-  scanf("%s", s + 1);
+  cin >> (s + 1);
   for (int i{1}; s[i]; ++i) T.extend(s[i] - 'a' + 1);
   T.extend(0);
   T.init(1);
   int pw;
   cin >> pw;
   while (pw--) {
-    scanf("%s", s + 1);
+    cin >> (s + 1);
     int n = strlen(s + 1);
     for (int i{1}; i <= n; ++i) s[i] += 1 - 'a';
     copy(s + 1, s + 1 + n, s + 1 + n);

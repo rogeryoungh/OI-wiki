@@ -1,8 +1,6 @@
 #include <algorithm>
-#include <cstdio>
 #include <cstring>
 #include <iostream>
-
 using namespace std;
 
 const int N = 2005;
@@ -44,7 +42,7 @@ void insert(int x) {
 }
 
 int main() {
-  scanf("%s%s", s + 1, t + 1);
+  cin >> (s + 1) >> (t + 1);
 
   n = strlen(s + 1);
   m = strlen(t + 1);
@@ -80,7 +78,7 @@ int main() {
     }
   }
 
-  printf("%d\n", ans == N ? -1 : ans);
+  cout << (ans == N ? -1 : ans) << '\n';
 
   // 2
   ans = N;
@@ -95,7 +93,7 @@ int main() {
     }
   }
 
-  printf("%d\n", ans == N ? -1 : ans);
+  cout << (ans == N ? -1 : ans) << '\n';
 
   // 3
   for (int i = n; i >= 0; --i) {
@@ -109,7 +107,7 @@ int main() {
     }
   }
 
-  printf("%d\n", f[0][1] == N ? -1 : f[0][1]);
+  cout << (f[0][1] == N ? -1 : f[0][1]) << '\n';
 
   // 4
   memset(f, 0, sizeof(f));
@@ -125,7 +123,7 @@ int main() {
     }
   }
 
-  printf("%d\n", f[0][0] == N ? -1 : f[0][0]);
+  cout << (f[0][0] == N ? -1 : f[0][0]) << '\n';
 
   return 0;
 }

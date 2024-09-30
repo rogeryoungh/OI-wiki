@@ -1,6 +1,6 @@
 #include <algorithm>
-#include <cstdio>
 #include <cstring>
+#include <iostream>
 using namespace std;
 const int maxn = 300000 + 5;
 
@@ -58,12 +58,13 @@ long long solve() {
 char s[maxn];
 
 int main() {
+  cin.tie(nullptr)->sync_with_stdio(false);
   pam::clear();
-  scanf("%s", s + 1);
+  cin >> (s + 1);
   for (int i = 1; s[i]; i++) {
     pam::insert(s[i]);
   }
-  printf("%lld\n", pam::solve());
+  cout << pam::solve() << '\n';
   return 0;
 }
 

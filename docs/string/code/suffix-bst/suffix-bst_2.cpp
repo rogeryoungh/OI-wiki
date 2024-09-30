@@ -1,6 +1,6 @@
 #include <algorithm>
-#include <cstdio>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
 const int N = 8e5 + 5;
@@ -139,11 +139,12 @@ int query(int rt, char* s, int len) {
 }
 
 void solve() {
+  cin.tie(nullptr)->sync_with_stdio(false);
   n = 0;
-  scanf("%d", &q);
+  cin >> q;
   init();
 
-  scanf("%s", a + 1);
+  cin >> (a + 1);
   na = strlen(a + 1);
   for (int i = 1; i <= na; ++i) {
     t[++n] = a[i];
@@ -153,12 +154,12 @@ void solve() {
   int mask = 0;
   char op[10];
   for (int i = 1; i <= q; ++i) {
-    scanf("%s", op);
+    cin >> op;
 
     // 三种情况分别处理
 
     if (op[0] == 'A') {  // ADD
-      scanf("%s", a + 1);
+      cin >> (a + 1);
       na = strlen(a + 1);
       decode(a + 1, na, mask);
 
@@ -168,14 +169,14 @@ void solve() {
       }
     } else if (op[0] == 'D') {  // DEL
       int x;
-      scanf("%d", &x);
+      cin >> x;
       while (x) {
         remove(root, n, 0, INF);
         --n;
         --x;
       }
     } else if (op[0] == 'Q') {  // QUERY
-      scanf("%s", a + 1);
+      cin >> (a + 1);
       na = strlen(a + 1);
       decode(a + 1, na, mask);
 
@@ -188,7 +189,7 @@ void solve() {
       --a[na];
       ans -= query(root, a, na + 1);
 
-      printf("%d\n", ans);
+      cout << ans << '\n';
       mask ^= ans;
     }
   }

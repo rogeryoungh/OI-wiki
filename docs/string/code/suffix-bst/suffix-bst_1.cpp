@@ -1,6 +1,6 @@
 #include <algorithm>
-#include <cstdio>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
 const int N = 1e6 + 5;
@@ -91,7 +91,7 @@ void inorder(int rt) {
 }
 
 void solve(int Case) {
-  scanf("%s", t + 1);
+  cin >> (t + 1);
   n = strlen(t + 1);
 
   init();
@@ -103,11 +103,12 @@ void solve(int Case) {
   m = 0;
   inorder(root);
 
-  for (int i = 1; i <= n; ++i) printf("%d ", sa[i]);
-  printf("\n");
+  for (int i = 1; i <= n; ++i) cout << sa[i] << ' ';
+  cout << '\n';
 }
 
 int main() {
+  cin.tie(nullptr)->sync_with_stdio(false);
   solve(1);
   return 0;
 }
