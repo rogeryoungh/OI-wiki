@@ -103,4 +103,4 @@ signed main() {
     cout << (i ? "Yes" : "No") << '\n';
   }
   return 0;
-}
+}  // test

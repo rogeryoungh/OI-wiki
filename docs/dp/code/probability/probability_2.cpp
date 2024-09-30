@@ -16,4 +16,4 @@ int main() {
   }
   printf("%.4lf\n", dp[0][0]);
   return 0;
-}
+}  // test

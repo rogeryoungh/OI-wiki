@@ -23,4 +23,4 @@ int main() {
 
   for (int x : ps) std::cout << x << ' ';
   return 0;
-}
+}  // test

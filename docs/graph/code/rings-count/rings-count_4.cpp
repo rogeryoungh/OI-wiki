@@ -29,4 +29,4 @@ int main() {
   }
   printf("%lld\n", total);
   return 0;
-}
+}  // test

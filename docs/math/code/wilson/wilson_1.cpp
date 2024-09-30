@@ -18,4 +18,4 @@ int main() {
     std::cin >> n;
     std::cout << sum[n] << std::endl;
   }
-}
+}  // test

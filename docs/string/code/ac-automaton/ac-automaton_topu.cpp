@@ -87,4 +87,4 @@ int main() {
   topu();
   for (int i = 1; i <= n; i++) cout << vis[rev[i]] << std::endl;
   return 0;
-}
+}  // test

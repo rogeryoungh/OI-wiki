@@ -130,4 +130,4 @@ int main() {
     puts(treeIsomorphism() ? "YES" : "NO");
   }
   return 0;
-}
+}  // test

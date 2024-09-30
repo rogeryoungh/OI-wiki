@@ -51,4 +51,4 @@ int main() {
   for (int i = 1; i <= n; i++) ans = max(ans, f[fl ^ 1][i]);
   cout << ans << endl;
   return 0;
-}
+}  // test

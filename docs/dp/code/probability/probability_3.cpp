@@ -51,4 +51,4 @@ int main() {
   printf("%.2lf", ans);
 
   return 0;
-}
+}  // test

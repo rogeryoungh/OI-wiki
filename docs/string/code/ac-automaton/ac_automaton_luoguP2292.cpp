@@ -88,4 +88,4 @@ int main() {
     scanf("%s", T);
     printf("%d\n", query(T));
   }
-}
+}  // test

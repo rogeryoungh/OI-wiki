@@ -121,4 +121,4 @@ int main() {
   std::cin >> t;
   while (t--) mian();
   return 0;
-}
+}  // test

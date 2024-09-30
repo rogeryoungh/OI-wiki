@@ -131,4 +131,4 @@ int main() {
   mo_algo();
   for (int i = 1; i <= q; ++i) write(ans[i]), puts("");
   return 0;
-}
+}  // test

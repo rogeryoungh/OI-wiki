@@ -12,4 +12,4 @@ int main(void) {
   }
   printf("%d\n", time);  // 输出得到的结果
   return 0;
-}
+}  // test

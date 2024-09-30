@@ -38,4 +38,4 @@ int main() {
     }
   printf("%lld\n", (answer - m) / 2);
   return 0;
-}
+}  // test

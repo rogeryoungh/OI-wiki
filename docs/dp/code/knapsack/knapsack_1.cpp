@@ -11,4 +11,4 @@ int main() {
       if (f[l - w[i]] + v[i] > f[l]) f[l] = f[l - w[i]] + v[i];  // 状态方程
   cout << f[W];
   return 0;
-}
+}  // test

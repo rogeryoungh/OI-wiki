@@ -140,4 +140,4 @@ int main() {
   divid(rt);
   rep(i, 1, n) printf("%lld\n", ans[i]);
   return 0;
-}
+}  // test

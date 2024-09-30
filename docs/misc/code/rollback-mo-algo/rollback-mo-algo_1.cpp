@@ -90,4 +90,4 @@ int main() {
   }
   for (int i = 1; i <= q; i++) printf("%lld\n", ans[i]);
   return 0;
-}
+}  // test

@@ -45,3 +45,5 @@ int main() {
   reverse(ans, ans + n);
   for (int i = 0; i < n; cout << ans[i++] << '\n');
 }
+
+// test

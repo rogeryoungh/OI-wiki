@@ -70,4 +70,4 @@ int main() {
     }
   printf("%lld\n", Ans);
   return 0;
-}
+}  // test

@@ -91,4 +91,4 @@ int main() {
     if (i != n - 1) printf("\n");
   }
   return 0;
-}
+}  // test

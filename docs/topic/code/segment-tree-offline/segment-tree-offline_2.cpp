@@ -79,4 +79,4 @@ signed main() {
   }
   cout << ans1 << ' ' << ans2;
   return 0;
-}
+}  // test

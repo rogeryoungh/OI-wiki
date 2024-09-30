@@ -114,4 +114,4 @@ int main() {
   ACM.FailTree();
   for (int i = 1; i <= n; i++) std::cout << cnt[i] << '\n';
   return 0;
-}
+}  // test

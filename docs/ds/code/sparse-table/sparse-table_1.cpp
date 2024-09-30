@@ -39,4 +39,4 @@ int main() {
     printf("%d\n", max(f[x][s], f[y - (1 << s) + 1][s]));
   }
   return 0;
-}
+}  // test

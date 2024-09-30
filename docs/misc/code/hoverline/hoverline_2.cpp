@@ -33,4 +33,4 @@ int main() {
     printf("%lld\n%d %d\n", ans, ansl, ansr);
   }
   return 0;
-}
+}  // test

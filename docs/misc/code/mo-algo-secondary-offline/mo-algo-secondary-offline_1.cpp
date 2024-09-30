@@ -220,4 +220,4 @@ int main() {
   captainMoSecondaryOffline::solve();
   for (int i = 1; i <= m; i++) std::cout << ans[i] << '\n';
   return 0;
-}
+}  // test

@@ -73,4 +73,4 @@ int main() {
   memset(cnt, 0, sizeof(cnt));
   solve();
   return 0;
-}
+}  // test

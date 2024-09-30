@@ -18,4 +18,4 @@ int main() {
   }
   cout << f.size() << '\n' << g.size() << '\n';
   return 0;
-}
+}  // test

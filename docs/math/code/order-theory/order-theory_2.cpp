@@ -19,4 +19,4 @@ int main() {
     cout << f[n - 1][0] << '\n';
   }
   return 0;
-}
+}  // test

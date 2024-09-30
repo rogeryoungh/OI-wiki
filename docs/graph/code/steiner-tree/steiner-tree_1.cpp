@@ -63,4 +63,4 @@ int main() {
   }
   printf("%d\n", dp[key[1]][(1 << k) - 1]);
   return 0;
-}
+}  // test

@@ -65,4 +65,4 @@ int main() {
   }
   for (int i = 1; i <= m; i++) printf("%d\n", ans[i]);
   return 0;
-}
+}  // test

@@ -78,4 +78,4 @@ int main() {
 
   printf("%.3f\n", ans);
   return 0;
-}
+}  // test

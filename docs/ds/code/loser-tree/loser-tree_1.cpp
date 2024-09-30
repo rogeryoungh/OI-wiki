@@ -100,4 +100,4 @@ int main() {
   runTest(data);
 
   return 0;
-}
+}  // test

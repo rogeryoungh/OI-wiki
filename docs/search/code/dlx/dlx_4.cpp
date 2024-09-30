@@ -146,3 +146,5 @@ int main() {
       for (int j = 1; j <= i; ++j) putchar(ans[i][j]);
   return 0;
 }
+
+// test

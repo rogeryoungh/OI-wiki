@@ -26,4 +26,4 @@ int main() {
   }
   printf("%6lf", l);
   return 0;
-}
+}  // test

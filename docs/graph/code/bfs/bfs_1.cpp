@@ -55,4 +55,4 @@ int main() {
   else
     cout << dist[0][0][3] << endl;
   return 0;
-}
+}  // test

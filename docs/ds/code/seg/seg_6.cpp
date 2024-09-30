@@ -97,4 +97,4 @@ int main() {
   cacl(1);
   for (int i = 1; i <= n; i++) cout << ans[i] << endl;
   return 0;
-}
+}  // test

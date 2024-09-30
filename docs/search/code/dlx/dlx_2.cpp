@@ -111,3 +111,5 @@ int main() {
     for (int j = 1; j <= 9; ++j, putchar(' ')) printf("%d", ans[i][j]);
   return 0;
 }
+
+// test

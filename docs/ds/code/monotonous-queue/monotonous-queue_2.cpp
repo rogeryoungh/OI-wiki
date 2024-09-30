@@ -37,4 +37,4 @@ int main() {
   else
     puts("-1");
   return 0;
-}
+}  // test

@@ -25,4 +25,4 @@ int main() {
   }
   printf("%.9lf\n", dp[w][b]);
   return 0;
-}
+}  // test

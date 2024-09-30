@@ -95,4 +95,4 @@ int main() {
   }
   solve(0, cnt + 1, 1, tot);
   for (int i = 1; i <= m; i++) printf("%d\n", toRaw[ans[i]]);
-}
+}  // test

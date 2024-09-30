@@ -107,4 +107,4 @@ int main() {
   }
   assert(H1->sz <= 1);
   cout << (H1->sz == 1 ? H1->key[0] : 0) << endl;
-}
+}  // test

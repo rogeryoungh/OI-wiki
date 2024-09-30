@@ -79,4 +79,4 @@ int main() {
     printf("%d\n", ans.top());
     ans.pop();
   }
-}
+}  // test

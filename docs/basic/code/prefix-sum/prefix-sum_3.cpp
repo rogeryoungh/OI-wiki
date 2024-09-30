@@ -73,4 +73,4 @@ int main() {
   get_ans(1, 0);
   printf("%d\n", ans);
   return 0;
-}
+}  // test

@@ -128,4 +128,4 @@ int main() {
         cout << kth(1, n, k, root[p]) << endl;
     }
   }
-}
+}  // test

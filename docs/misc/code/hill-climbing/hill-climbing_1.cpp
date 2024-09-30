@@ -33,4 +33,4 @@ int main() {
     for (int i = 1; i <= n; i++) ans[i] += cans[i] * t;  // 修改
   }
   for (int i = 1; i <= n; i++) printf("%.3f ", ans[i]);
-}
+}  // test

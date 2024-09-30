@@ -74,3 +74,5 @@ int main() {
   }
   printf("%d", (int)(simplex() + 0.5));
 }
+
+// test

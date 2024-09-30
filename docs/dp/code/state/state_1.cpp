@@ -36,4 +36,4 @@ int main() {
   for (int i = 1; i <= cnt; i++) ans += f[n][i][k];  // 累加答案
   cout << ans << endl;
   return 0;
-}
+}  // test

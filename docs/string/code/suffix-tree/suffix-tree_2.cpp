@@ -104,4 +104,4 @@ int main() {
     cout << T.test(s, n) << "\n";
   }
   return 0;
-}
+}  // test

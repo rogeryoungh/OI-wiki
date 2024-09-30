@@ -55,3 +55,5 @@ int main() {
     if (flag[i]) cout << i << " ";  // 输出结果
   return 0;
 }
+
+// test

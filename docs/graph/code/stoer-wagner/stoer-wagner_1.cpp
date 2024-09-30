@@ -70,4 +70,4 @@ int main() {
   }
   cout << Stoer_Wagner();
   return 0;
-}
+}  // test

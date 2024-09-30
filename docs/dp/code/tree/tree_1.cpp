@@ -40,4 +40,4 @@ int main() {
       printf("%d", max(f[i][1], f[i][0]));
       return 0;
     }
-}
+}  // test

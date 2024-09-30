@@ -57,3 +57,5 @@ int main() {
   printf("%d", AC::query(s));
   return 0;
 }
+
+// test

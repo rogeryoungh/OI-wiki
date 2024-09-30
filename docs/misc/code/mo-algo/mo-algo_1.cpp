@@ -57,4 +57,4 @@ int main() {
     printf("%lld/%lld\n", ans1[i], ans2[i]);
   }
   return 0;
-}
+}  // test

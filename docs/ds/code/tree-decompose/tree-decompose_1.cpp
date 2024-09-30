@@ -134,4 +134,4 @@ void add(int u, int v) {
   nxt[++cnt] = head[u];
   head[u] = cnt;
   to[cnt] = v;
-}
+}  // test

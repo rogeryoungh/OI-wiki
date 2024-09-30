@@ -87,4 +87,4 @@ int main() {
     else
       printf("NAY\n");
   return 0;
-}
+}  // test

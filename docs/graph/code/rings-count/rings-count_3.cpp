@@ -43,4 +43,4 @@ int main() {
     printf("%d\n", total);
   }
   return 0;
-}
+}  // test

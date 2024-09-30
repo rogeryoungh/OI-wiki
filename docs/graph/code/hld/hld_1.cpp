@@ -137,4 +137,4 @@ int main() {
     if (!strcmp(op, "QSUM")) printf("%d\n", querysum(u, v));
   }
   return 0;
-}
+}  // test

@@ -58,4 +58,4 @@ int main() {
       std::cin >> i4, update(i2, i3, i4, 1, n, 1);
   }
   return 0;
-}
+}  // test

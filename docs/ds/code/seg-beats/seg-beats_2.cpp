@@ -173,4 +173,4 @@ int main() {
       printf("%lld\n", qmin(l, r));
   }
   return 0;
-}
+}  // test

@@ -88,4 +88,4 @@ int main() {
   ans[k + 1] = 0;
   printf("%s\n", ans + 1);
   return 0;
-}
+}  // test

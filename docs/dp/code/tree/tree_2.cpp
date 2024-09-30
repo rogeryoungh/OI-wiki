@@ -30,4 +30,4 @@ int main() {
   dfs(0);
   printf("%d", f[0][m + 1]);
   return 0;
-}
+}  // test
